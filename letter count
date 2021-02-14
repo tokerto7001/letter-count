@@ -1,0 +1,9 @@
+my_sentence = input("Enter your sentence :")
+dict1 = {}
+for a in my_sentence:
+    count = dict1.keys()
+    if a in count:
+        dict1[a] += 1
+    else:
+        dict1[a] = 1
+print(dict1)
